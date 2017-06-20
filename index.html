@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employees</title>
+        <script src="src/gradeCalculator.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h3>Bring up the console to start!</h4>
+                    <h4>To use...</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Create a new calculator: calc = new GradeCalculator();
+
+                        </li>
+                        <li class="list-group-item">
+                            To use custom boundaries, pass in a boundaries object: customCalc = new GradeCalculator(customBoundaries);
+                        </li>
+                        <li class="list-group-item">
+                            Custom boundaries should be in the following format:
+                            {
+                                A: 80,
+                                B: 70,
+                                C: 60,
+                                D: 50,
+                                E: 40,
+                                Fail: "Fail"
+                            }
+                        </li>
+                        <li class="list-group-item">
+                            Calculate grades from an array: calc.calculateGrade([50,70,89]);
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
